@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: wait-for-me-dev
+
+test:
+  adapter: postgresql
+  database: wait-for-me-test
