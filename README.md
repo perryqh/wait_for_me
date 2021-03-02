@@ -31,7 +31,7 @@ WaitForMe.add_participant(participant_key:                 'website-server-host-
 `wait_time_in_seconds` wait this long and then execute `execute_after_waiting` if `number_of_participants_in_group` "adds" have not already occurred.
 Each time  participant is added, the wait time is reset to this value
 
-The "wait" can programatically be ended WITHOUT executing  `execute_after_waiting` by calling
+The "wait" can programmatically be ended WITHOUT executing  `execute_after_waiting` by calling
 ```ruby
 WaitForMe.remove_wait('deployment-id')
 ``` 
